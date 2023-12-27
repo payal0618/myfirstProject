@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+    .box{
+        margin: 0px;
+        padding: 20px;
+        background: rgb(220, 222, 230);
+        padding:10px;
+        display: flex;
+        justify-content: flex-end;
+        height:300px;
+    }
+    .box>div{
+        
+        padding:30px;
+    }
+    .box>div:nth-child(masai){
+        background-color:teal;
+    }
+    .box>div:nth-child(HOME){
+        background-color:teal;
+    
+    }
+    .box>div:nth-child(GALLERY){
+        background-color:teal;
+        
+    }
+    .box>div:nth-child(ABOUT){
+        background-color:teal;
+    } 
+     </style>
+</head>
+<body>
+    <div id ="box">
+        <div class="box">
+
+         <div>masai</div>
+        <div>HOME</div>
+        <div>GALLERY</div>
+        <div>ABOUT</div>
+        </div>
+     </div>
+    
+</body>
+</html>

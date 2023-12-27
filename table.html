@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Responsive Table</title>
+    <style type="text / css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color:aqua;
+            font-family: sans-serif;
+        }
+        .table-container{
+            padding: 0 10%;
+            margin: 40px auto 0;
+        }
+        .headling{
+            font-size: 40px;
+            text-align: center;
+            color: pink;
+            margin-bottom: 40px;
+        }
+        .table{
+            width; 100%;
+            border-c0llapse: collapse;
+        }
+        .table thead{
+            background-color: yellow;
+        }
+        .table thead tr th{
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.35px;
+            color: lightseagreen;
+            opacity:1;
+            padding: 12px;
+            vertical-align: top;
+            border: 1px solid red;
+         }
+         .table tbody tr td{
+            fony-size: 14px;
+            letter-spacing: 0.35px;
+            font-weight: normal;
+            color: orange;
+            background: teal;
+            padding: 8px;
+            text-align: center;
+            border: 1px solid slategrey;
+         }
+         .table.text_open{
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 0.35;
+            color: pink;
+         }
+         .table.tbody tr td .btn{
+            width: 130px;
+            text-decoration: none;
+            line-height: 35px;
+            display: inline-block;
+            background-color:aquamarine;
+            font weight: medium;
+            
+
+         }
+
+
+
+         
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h1 class="heading">Responsive Table</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Start Date</th>
+                    <th>Start / End Time</th>
+                    <th>Batch Type</th>
+                    <th>Training Mode</th>
+                    <th>Batch Status</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Start Date"> 1 jan 2023</td>
+                    <td data-label="Start / End"> 09:00 - 13:00 (IST)</td>
+                    <td data-lebel="Batch Type">Weekend</td>
+                    <td data-lebel="Training Mode">online Training</td>
+                    <td data-lebel="Batch Status"> <span class="text_open">[open]</span>
+                    </td>
+                    <td data-label="#"><a href="#" class="btn"> Enroll Now</a></td>
+                </tr>
+                <tr>
+                    <td data-label="Start Date"> 2 jan 2023</td>
+                    <td data-label="Start / End"> 09:00 - 13:00 (IST)</td>
+                    <td data-lebel="Batch Type">Weekend</td>
+                    <td data-lebel="Training Mode">online Training</td>
+                    <td data-lebel="Batch Status"> <span class="text_open">[open]</span>
+                    </td>
+                    <td data-label="#"><a href="#" class="btn"> Enroll Now</a></td>
+                </tr>
+                <tr>
+                    <td data-label="Start Date"> 4 jan 2023</td>
+                    <td data-label="Start / End"> 09:00 - 13:00 (IST)</td>
+                    <td data-lebel="Batch Type">Weekend</td>
+                    <td data-lebel="Training Mode">online Training</td>
+                    <td data-lebel="Batch Status"> <span class="text_open">[open]</span>
+                    </td>
+                    <td data-label="#"><a href="#" class="btn"> Enroll Now</a></td>
+                </tr>
+                <tr>
+                    <td data-label="Start Date"> 5 jan 2023</td>
+                    <td data-label="Start / End"> 09:00 - 13:00 (IST)</td>
+                    <td data-lebel="Batch Type">Weekend</td>
+                    <td data-lebel="Training Mode">online Training</td>
+                    <td data-lebel="Batch Status"> <span class="text_open">[open]</span>
+                    </td>
+                    <td data-label="#"><a href="#" class="btn"> Enroll Now</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+</body>
+</html>

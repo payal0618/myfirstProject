@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flex</title>
+    <style>
+        .box{
+            background-color: white;
+            padding:20px;
+            display: flex;
+
+        }
+        .box > div {
+            padding: 200px;
+        }
+        .box > div:nth-child(1){
+            background-color: red;
+        
+        }
+        .box > div:nth-child(2) {
+            background-color: rgb(66, 201, 66);
+        }
+        .box > div:nth-child(3) {
+            background-color: yellow;
+        }
+        .box > div:nth-child(4) {
+            background-color: rgb(36, 144, 186);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+</body>
+</html>
